@@ -9,6 +9,9 @@
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 </head>
 
 <body>
@@ -37,13 +40,16 @@
     <section id="home" class="hero">
 
         <div class="hero-content">
+
             <p class="welcome">WELCOME TO MY PORTFOLIO</p>
 
-            <h1>Hi, I'm <span>Ayesha Muhammad Ali</span></h1>
+            <h1 class="hero-name">
+                Hi, I'm <span>Ayesha Muhammad Ali</span>
+            </h1>
 
-            <h2>Front-End Web Developer</h2>
+            <h2 class="hero-title">Front-End Web Developer</h2>
 
-            <p>
+            <p class="hero-description">
                 I create responsive, modern and user-friendly websites
                 using HTML, CSS, JavaScript and Bootstrap.
             </p>
@@ -52,7 +58,9 @@
                 <a href="#projects" class="btn">View Projects</a>
                 <a href="#contact" class="btn second-btn">Contact Me</a>
             </div>
+
         </div>
+
 
         <div class="hero-image">
             <div class="image-circle">
@@ -75,6 +83,7 @@
 
             <div class="about-box">
                 <i class="fas fa-code"></i>
+
                 <h3>Who I Am</h3>
 
                 <p>
@@ -91,6 +100,7 @@
             </div>
 
             <div class="about-info">
+
                 <div>
                     <i class="fas fa-graduation-cap"></i>
                     <h3>Education</h3>
@@ -104,9 +114,11 @@
                     <p>Front-End Development</p>
                     <p>Responsive Web Design</p>
                 </div>
+
             </div>
 
         </div>
+
     </section>
 
 
@@ -169,6 +181,7 @@
             </div>
 
         </div>
+
     </section>
 
 
@@ -183,72 +196,168 @@
         <div class="projects-container">
 
             <div class="project-card">
+
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80"
+                        alt="Coffee Website">
+                </div>
+
                 <div class="project-icon">
                     <i class="fas fa-mug-hot"></i>
                 </div>
+
                 <h3>Coffee Website</h3>
-                <p>Responsive coffee website using HTML, CSS and JavaScript.</p>
+
+                <p>
+                    Responsive coffee website using HTML, CSS and JavaScript.
+                </p>
+
                 <span>HTML • CSS • JavaScript</span>
+
             </div>
 
+
             <div class="project-card">
+
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80"
+                        alt="Calculator">
+                </div>
+
                 <div class="project-icon">
                     <i class="fas fa-calculator"></i>
                 </div>
+
                 <h3>Calculator</h3>
-                <p>Functional calculator application created with JavaScript.</p>
+
+                <p>
+                    Functional calculator application created with JavaScript.
+                </p>
+
                 <span>HTML • CSS • JavaScript</span>
+
             </div>
 
+
             <div class="project-card">
+
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80"
+                        alt="ATM System">
+                </div>
+
                 <div class="project-icon">
                     <i class="fas fa-building-columns"></i>
                 </div>
+
                 <h3>ATM System</h3>
-                <p>Simple ATM system developed using web technologies.</p>
+
+                <p>
+                    Simple ATM system developed using web technologies.
+                </p>
+
                 <span>HTML • CSS • JavaScript</span>
+
             </div>
 
+
             <div class="project-card">
+
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=80"
+                        alt="Gym Website">
+                </div>
+
                 <div class="project-icon">
                     <i class="fas fa-dumbbell"></i>
                 </div>
+
                 <h3>Gym Website</h3>
-                <p>Modern responsive gym website with attractive sections.</p>
+
+                <p>
+                    Modern responsive gym website with attractive sections.
+                </p>
+
                 <span>HTML • CSS</span>
+
             </div>
 
+
             <div class="project-card">
+
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
+                        alt="Ayesha Ali Footwears">
+                </div>
+
                 <div class="project-icon">
                     <i class="fas fa-shoe-prints"></i>
                 </div>
+
                 <h3>Ayesha Ali Footwears</h3>
-                <p>Responsive footwear website with product cards.</p>
+
+                <p>
+                    Responsive footwear website with product cards.
+                </p>
+
                 <span>HTML • CSS • Bootstrap</span>
+
             </div>
 
+
             <div class="project-card">
+
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=900&q=80"
+                        alt="iPhone Series Web Page">
+                </div>
+
                 <div class="project-icon">
                     <i class="fab fa-apple"></i>
                 </div>
+
                 <h3>iPhone Series Web Page</h3>
-                <p>Modern landing page designed for an iPhone series.</p>
+
+                <p>
+                    Modern landing page designed for an iPhone series.
+                </p>
+
                 <span>HTML • CSS</span>
+
             </div>
 
+
             <div class="project-card">
+
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80"
+                        alt="Employee Management System">
+                </div>
+
                 <div class="project-icon">
                     <i class="fas fa-users"></i>
                 </div>
+
                 <h3>Employee Management System</h3>
+
                 <p>
                     Responsive employee management dashboard with
                     employee records and departments.
                 </p>
+
                 <span>HTML • CSS • JavaScript</span>
+
+                <a
+                    href="https://workwithayesha531-ai.github.io/EMPLOY-MANAGEMENT-SYSTEM/"
+                    target="_blank"
+                    class="project-link">
+                    View Project
+                </a>
+
             </div>
 
         </div>
+
     </section>
 
 
@@ -300,11 +409,14 @@
 
             <form id="contactForm">
 
-                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="text" id="name"
+                    placeholder="Your Name" required>
 
-                <input type="email" id="email" placeholder="Your Email" required>
+                <input type="email" id="email"
+                    placeholder="Your Email" required>
 
-                <input type="text" id="subject" placeholder="Subject" required>
+                <input type="text" id="subject"
+                    placeholder="Subject" required>
 
                 <textarea id="message" rows="6"
                     placeholder="Your Message" required></textarea>
@@ -316,6 +428,7 @@
             </form>
 
         </div>
+
     </section>
 
 
@@ -329,6 +442,7 @@
         </p>
 
         <div class="social-links">
+
             <a href="#" target="_blank">
                 <i class="fab fa-linkedin"></i>
             </a>
@@ -336,6 +450,7 @@
             <a href="#" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
+
         </div>
 
         <p class="copyright">
@@ -349,3 +464,4 @@
 
 </body>
 </html>
+```
